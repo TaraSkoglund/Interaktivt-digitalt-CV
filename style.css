@@ -72,6 +72,10 @@ a {
     color: white;
 }
 
+/* .scroll-header{
+    background: rgba(66, 61, 62, 0.7);
+} */
+
 .scrolltop {
     position: fixed;
     right: 1rem;
@@ -79,9 +83,9 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0.5rem;
+    padding: 0.2rem;
     background-color: rgb(123,111,113,.7);
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     z-index: var(--z-tooltrip);
     transition: .4s;
     visibility: hidden;
@@ -143,7 +147,6 @@ a {
     width: max-content;
     font-weight: 1.3rem;
     margin-bottom: 2rem;
-    /* color: white; */
     color: var(--first-color-lighten);
 }
 
@@ -151,6 +154,8 @@ a {
     height: 24rem;
     width: 100%;
     position: absolute;
+    background-image: url(./images/IMG_2715.jpeg);
+    background-size: cover;
     z-index: var(--z-normal);
 }
 
@@ -163,13 +168,83 @@ a {
     font-weight: bold;
 }
 
+.utbildning-erfarenhet {
+    padding: 2rem;
+    background:gainsboro;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.utbildning-titel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.Kompetens, .portfolio-text {
+    font-weight: bold;
+}
+
+.content{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgb(128, 127, 127);
+}
+
+.erfarenheter {
+    margin-top: 2rem;
+}
+
+.portfolio-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.kontakta {
+    padding: 2rem;
+    background: black;
+    color: white;
+}
+
+.kontakta-text{
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+}
+
+.kontakta-social{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.kontakta-social_icon{
+    margin: 0.3rem;
+}
+
+@media (min-width: 480px) {
+    
+}
+
 @media (min-width: 768px) {
     
 }
 
 @media (min-width: 948px) {
-    .fa-solid {
-        display: none;
-    }
+    
     
 }

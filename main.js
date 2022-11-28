@@ -2,6 +2,7 @@ window.addEventListener('DOMContentLoaded', main)
 
 function main () {
     burgerMenuOnClick();
+    // scrollHeader();
     scrollTop();
 }
 
@@ -19,6 +20,14 @@ function toggeleMenu(){
     const header = document.querySelector('header');
     header.classList.toggle('open');
 }
+
+// function scrollHeader(){
+//     const header = document.getElementById('header')
+//     if(this.scrollY >= 200) header.classList.add('scroll-header');
+//     else header.classList.remove('sceoll-header');
+// }
+
+// window.addEventListener('scroll', scrollHeader)
 
 function scrollTop (){
     const scrollTop = document.getElementById('scroll-top')
