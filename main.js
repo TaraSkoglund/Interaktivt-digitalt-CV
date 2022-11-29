@@ -2,7 +2,6 @@ window.addEventListener('DOMContentLoaded', main)
 
 function main () {
     burgerMenuOnClick();
-    // scrollHeader();
     scrollTop();
 }
 
@@ -21,18 +20,19 @@ function toggeleMenu(){
     header.classList.toggle('open');
 }
 
-// function scrollHeader(){
-//     const header = document.getElementById('header')
-//     if(this.scrollY >= 200) header.classList.add('scroll-header');
-//     else header.classList.remove('sceoll-header');
-// }
-
-// window.addEventListener('scroll', scrollHeader)
+let className = "inverted";
+let scrollTrigger = 60;
 
 function scrollTop (){
     const scrollTop = document.getElementById('scroll-top')
     if(this.scrollY >= 540) scrollTop.classList.add('show-scroll');
     else scrollTop.classList.remove('show-scroll')
+
+    if (window.scrollY >= scrollTrigger || window.pageYOffset >= scrollTrigger) {
+        document.getElementsByTagName("header")[0].classList.add(className);
+      } else {
+        document.getElementsByTagName("header")[0].classList.remove(className);
+      }
 }
 
 window.addEventListener('scroll', scrollTop)

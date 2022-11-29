@@ -6,48 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interaktivt digitalt CV</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
-    <script src="./main.js"></script>
     <script src="https://kit.fontawesome.com/2910fb44db.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./tablet.css">
+    <link rel="stylesheet" href="./desktop.css">
+    <script src="./main.js"></script>
+   
 </head>
 <body>
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class="fa-solid fa-angle-up scrolltop_icon"></i>
+    </a>
     <header>
-        <a href="#" class="scrolltop" id="scroll-top">
-            <i class="fa-solid fa-angle-up scrolltop_icon"></i>
-        </a>
         <div class="upper-section">
             <h5>Tara Skoglund</h5>
             <i id="burger-menu" class="fa-solid fa-bars fa-xl"></i>
         </div>
         <nav class="lower-section">
             <ul class="nav-list">
-                <a href="#"> <li class="nav-opt">Hem</li> </a>
+                <a href="#home"> <li class="nav-opt">Hem</li> </a>
                 <a href="#ommig"><li class="nav-opt">Om Mig</li></a>
                 <a href="#kompetens"> <li class="nav-opt">Kompetens</li> </a>
-                <a href="#"> <li class="nav-opt">Portfolio</li> </a>
-                <a href="#"> <li class="nav-opt">Kontakta</li> </a>
+                <a href="#portfolio"> <li class="nav-opt">Portfolio</li> </a>
+                <a href="#kontakta"> <li class="nav-opt">Kontakta</li> </a>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="home">
+        <section id="home" class="home">
                 <div class="start">
                     <div class="startPage">
                         <h6>Hej, Mitt namn är</h6>
                         <h1 class="my-name">Tara Skoglund</h1>
                         <h5>Front End Developer</h5>
                     </div>
-                    <div class="home-social">
-                        <a href="#"><i class="fa-solid fa-envelope home-social_icon"></i></a>
-                        <a href="https://github.com/TaraSkoglund"><i class="fa-brands fa-github home-social_icon"></i></a>
-                        <a href="https://www.linkedin.com/in/tara-skoglund-981415251/"><i class="fa-brands fa-linkedin home-social_icon"></i></a>
-                    </div>
                     <div class="profail-imag">
                         <img src="" alt="">
+                        <div class="home-social">
+                            <a href="mailto:skoglundtara@gmail.com"><i class="fa-solid fa-envelope home-social_icon"></i></a>
+                            <a href="https://github.com/TaraSkoglund"><i class="fa-brands fa-github home-social_icon"></i></a>
+                            <a href="https://www.linkedin.com/in/tara-skoglund-981415251/"><i class="fa-brands fa-linkedin home-social_icon"></i></a>
+                        </div>
                     </div>
                 </div>
         </section>
-        <section class="om_mig"><a namn="ommig"></a>
+        <section id="ommig" class="om_mig">
             <div class="om_mig-content">
                 <h2 class="text-omMig">Om Mig</h2></a>
                 <p class="text">Jag är en studerande tjej som heter Tara och aktivt letar efter LIA 1. Då utveckling och modernisering är något jag brinner för och är så viktigt. Noggrannhet och lagspelare är två ord jag gillar att använda då jag anser att det är på det sättet vi kommer att nå våra mål tillsammans. </p>
@@ -55,43 +58,47 @@
                 <p class="text">Något som är viktigt för mig är också mina intressen dansen, konsten och naturen då jag älskar att ta en promenad för att rensa tankarna. Målarduken för att hålla min kreativ sida flödande och dansen för att hålla mig i form, det fins inget bättre för mig. </p>
             </div>
         </section>
-        <section>
+        <section id="kompetens">
             <div class="utbildning-erfarenhet">
                 <div class="utbildning-titel">
                     <span>Utbildning & Erfarenhet</span>
                    <a namn="Kompetens"><h2 class=" Kompetens">Kompetens</h2></a>
                 </div>
-                <div class="content">
-                    <h3>
-                        <i class="fa-solid fa-graduation-cap"></i>
-                            Utbildning
-                    </h3>
-                    <h4>Frontend Development</h4>
-                    <span><i class="fa-solid fa-book-bookmark"></i> Göteborg - Medieinstitutet <br> <i class="fa-regular fa-calendar-check"></i> Sep 2022 - Maj 2024</span>
-                </div>
-                <div class="content">
-                    <h4>Estetiska Programet</h4>
-                    <span><i class="fa-solid fa-book-bookmark"></i> Stenungsund - Nösnäsgymnasiet <br> <i class="fa-regular fa-calendar-check"></i> Aug 2018 - Juni 2021</span>
-                </div>
-                <div class="content erfarenheter">
-                    <h3>
-                        <i class="fa-solid fa-briefcase"></i>
-                        Erfarenheter
-                    </h3>
-                    <h4>Butiksbiträde</h4>
-                    <span><i class="fa-solid fa-book-bookmark"></i> Stenungsund - Scorett <br> <i class="fa-regular fa-calendar-check"></i> April 2022 -</span>
-                </div>
-                <div class="content">
-                    <h4>Lagerarbetare</h4>
-                    <span><i class="fa-solid fa-book-bookmark"></i> Stenungsund - STS <br> <i class="fa-regular fa-calendar-check"></i> Sep 2021 - April 2022</span>
-                </div>
-                <div class="content">
-                    <h4>Danslärare</h4>
-                    <span><i class="fa-solid fa-book-bookmark"></i> Stenungsund - Be Sporty <br> <i class="fa-regular fa-calendar-check"></i> Feb 2020 - Maj 2021</span>
+                <div class="utbildning-content">
+                    <div class="content">
+                        <h3>
+                            <i class="fa-solid fa-graduation-cap"></i>
+                                Utbildning
+                        </h3>
+                        <h4>Frontend Development</h4>
+                        <span><i class="fa-solid fa-book-bookmark"></i> Göteborg - Medieinstitutet <br> <i class="fa-regular fa-calendar-check"></i> Sep 2022 - Maj 2024</span>
+                    </div>
+                    <div class="content">
+                        <h4>Estetiska Programet</h4>
+                        <span><i class="fa-solid fa-book-bookmark"></i> Stenungsund - Nösnäsgymnasiet <br> <i class="fa-regular fa-calendar-check"></i> Aug 2018 - Juni 2021</span>
+                    </div>
+                </div> 
+                <div class="erfarenheter-content">
+                    <div class="content erfarenheter">
+                        <h3>
+                            <i class="fa-solid fa-briefcase"></i>
+                            Erfarenheter
+                        </h3>
+                        <h4>Butiksbiträde</h4>
+                        <span><i class="fa-solid fa-book-bookmark"></i> Stenungsund - Scorett <br> <i class="fa-regular fa-calendar-check"></i> April 2022 -</span>
+                    </div>
+                    <div class="content">
+                        <h4>Lagerarbetare</h4>
+                        <span><i class="fa-solid fa-book-bookmark"></i> Stenungsund - STS <br> <i class="fa-regular fa-calendar-check"></i> Sep 2021 - April 2022</span>
+                    </div>
+                    <div class="content">
+                        <h4>Danslärare</h4>
+                        <span><i class="fa-solid fa-book-bookmark"></i> Stenungsund - Be Sporty <br> <i class="fa-regular fa-calendar-check"></i> Feb 2020 - Maj 2021</span>
+                    </div>
                 </div>
             </div>
         </section>
-        <section>
+        <section id="portfolio">
             <div class="portfolio">
                 <div class="portfolio-titel">
                     <span>Mina arbeten</span>
@@ -103,7 +110,7 @@
                         <div class="card-body">
                         <h5 class="card-title">Parema</h5>
                         <p class="card-text">En uppdatering av en redan befintlig sida.</p>
-                        <a href="#" class="btn btn-dark border-right-0">Till projekt</a>
+                        <a href="http://127.0.0.1:5501/#exempel" class="btn btn-dark border-right-0">Till projekt</a>
                         </div>
                     </div>
                     <div class="card" style="width: 18rem;">
@@ -111,7 +118,7 @@
                         <div class="card-body">
                         <h5 class="card-title">Text-Based Game</h5>
                         <p class="card-text">Ett enklare spel baserat på text och enkla funktioner där användaren kan göra olika val och avancera i spelet.</p>
-                        <a href="#" class="btn btn-dark border-right-0">Till projekt</a>
+                        <a href="http://127.0.0.1:5501/index.html" class="btn btn-dark border-right-0">Till projekt</a>
                         </div>
                     </div>
                 </div>
@@ -119,13 +126,13 @@
 
         </section>
     </main>
-    <footer>
+    <footer id="kontakta">
         <div class="kontakta">
             <div class="kontakta-text">
                 <h3>Kontakta</h3>
             </div>
             <div class="kontakta-social">
-                <a href="#"><i class="fa-solid fa-envelope kontakta-social_icon"></i><span>Mail</span></a>
+                <a href="mailto:skoglundtara@gmail.com"><i class="fa-solid fa-envelope kontakta-social_icon"></i><span>Mail</span></a>
                 <a href="https://github.com/TaraSkoglund"><i class="fa-brands fa-github kontakta-social_icon"></i><span>Github</span></a>
                 <a href="https://www.linkedin.com/in/tara-skoglund-981415251/"><i class="fa-brands fa-linkedin kontakta-social_icon"></i><span>Linkedin</span></a>
             </div>

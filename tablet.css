@@ -1,0 +1,42 @@
+@media (min-width: 500px) {
+    .startPage{
+        height: 12rem;
+    }
+
+    .profail-imag img{
+        height: 30.6rem;
+    }
+
+    .home-social {
+        top: 45rem;
+    }
+}
+
+@media (min-width: 600px) {
+    .startPage{
+        height: 12rem;
+    }
+
+    .profail-imag img{
+        height: 30.7rem;
+    }
+
+    .home-social {
+        top: 45rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .startPage{
+        height: 18rem;
+    }
+
+    .profail-imag img{
+        height: 36.1rem;
+    }
+
+    .home-social {
+        top: 55rem;
+    }
+
+}
