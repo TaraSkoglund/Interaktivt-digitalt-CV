@@ -1,4 +1,53 @@
+@media (min-width: 820px) {
+    .startPage{
+        height: 20rem;
+    }
+
+    .profail-imag img{
+        height: 44rem;
+    }
+
+    .home-social {
+        top: 65rem;
+    }
+
+    .portfolio-card{
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 4rem;
+    }
+
+}
+
 @media (min-width: 948px) {
     
-    
+    .start{
+        display: flex;
+        height: 37.5rem;
+    }
+
+    .startPage{
+        width: 50%;
+    }
+
+    .profail-imag{
+        width: 50%;
+    }
+
+    .text-content{
+        display: flex;
+        gap: 1rem;
+    }
+
+    .home-social{
+        top: 30rem;
+    }
+
+    .utbildning-erfarenhet{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
 }

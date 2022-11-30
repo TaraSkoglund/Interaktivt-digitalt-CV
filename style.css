@@ -73,14 +73,10 @@ a {
 }
 
 .inverted {
-    /* Skapar bakgrundsfärg med opacity och blur */
     background: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(5px);
 }
 
-/* .scroll-Header{
-    background: rgba(66, 61, 62, 0.7);
-} */
 
 .scrolltop {
     position: fixed;
@@ -110,7 +106,7 @@ a {
     bottom: 1.5rem;
 }
 
-.stert{
+.start{
     overflow: hidden;
     background-color: black;
     align-content: space-around;
@@ -190,7 +186,8 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 1rem;
+    background-color: gainsboro;
+    padding-top: 2rem;
 }
 
 .Kompetens, .portfolio-text {

@@ -39,4 +39,10 @@
         top: 55rem;
     }
 
+    .portfolio-card{
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 4rem;
+    }
+
 }
