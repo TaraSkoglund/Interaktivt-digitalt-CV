@@ -1,5 +1,6 @@
 window.addEventListener('DOMContentLoaded', main)
 
+/** Start of the program */
 function main () {
     burgerMenuOnClick();
     scrollTop();
@@ -20,6 +21,7 @@ function toggeleMenu(){
     header.classList.toggle('open');
 }
 
+/** Declare Varialbles  */
 let className = "inverted";
 let scrollTrigger = 60;
 

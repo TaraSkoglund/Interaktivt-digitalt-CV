@@ -41,7 +41,7 @@
 
     .portfolio-card{
         flex-direction: row;
-        align-items: flex-start;
+        align-items: stretch;
         gap: 4rem;
     }
 
