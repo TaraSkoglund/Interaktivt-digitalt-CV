@@ -5,7 +5,7 @@ function main () {
     burgerMenuOnClick();
     scrollTop();
 }
-
+/** acess nav from burger menu */
 function burgerMenuOnClick(){
     const burgerMenuButton = document.getElementById('burger-menu');
     burgerMenuButton.onclick = toggeleMenu;
@@ -15,16 +15,15 @@ function burgerMenuOnClick(){
         li.addEventListener('click', toggeleMenu);
     }
 }
-
+/** cntrols header when open */
 function toggeleMenu(){
     const header = document.querySelector('header');
     header.classList.toggle('open');
 }
-
 /** Declare Varialbles  */
 let className = "inverted";
 let scrollTrigger = 60;
-
+/** adds scroll to top button and background to heder after scroll */
 function scrollTop (){
     const scrollTop = document.getElementById('scroll-top')
     if(this.scrollY >= 540) scrollTop.classList.add('show-scroll');

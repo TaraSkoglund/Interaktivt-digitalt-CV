@@ -17,6 +17,8 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/* heder and navigation */
+
 header {
     position: fixed;
     background: black;
@@ -43,11 +45,6 @@ header {
     
 }
 
-.open {
-    height: 50%;
-    background: black;
-}
-
 .nav-list {
     list-style: none;
     text-decoration: none;
@@ -56,9 +53,6 @@ header {
     display: flex;
     flex-direction: column;
     font-size:x-large;
-}
-.nav-opt {
-    margin: 0.5rem;
 }
 
 a {
@@ -70,11 +64,22 @@ a:hover{
     color: var(--first-color-lighten);
 }
 
+.nav-opt {
+    margin: 0.5rem;
+}
+
+.open {
+    height: 50%;
+    background: black;
+}
+
 .inverted {
     background: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
 }
+
+/* scroll to top 'button' */
 
 .scrolltop {
     position: fixed;
@@ -103,6 +108,8 @@ a:hover{
     visibility: visible;
     bottom: 1.5rem;
 }
+
+/* start page */
 
 .home {
     background: black;
@@ -163,12 +170,29 @@ a:hover{
     z-index: var(--z-normal);
 }
 
+/* about me */
+
 .om_mig {
     padding: 2rem;
 }
 
 .text-omMig {
     font-weight: bold;
+}
+
+/* experiens */
+
+.Kompetens, .portfolio-text {
+    font-weight: bold;
+}
+
+.utbildning-titel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: gainsboro;
+    padding-top: 2rem;
 }
 
 .utbildning-erfarenhet {
@@ -184,19 +208,6 @@ a:hover{
     flex-direction: column;
 }
 
-.utbildning-titel{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: gainsboro;
-    padding-top: 2rem;
-}
-
-.Kompetens, .portfolio-text {
-    font-weight: bold;
-}
-
 .content{
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
@@ -207,6 +218,8 @@ a:hover{
 .erfarenheter {
     margin-top: 2rem;
 }
+
+/* portfolio */
 
 .portfolio-card {
     display: flex;
@@ -220,6 +233,8 @@ a:hover{
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
 }
+
+/* footer */
 
 .kontakta {
     padding: 2rem;
